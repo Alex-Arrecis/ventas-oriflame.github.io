@@ -302,7 +302,62 @@
         padding: 0;
     }
 }
+/*aca se editara las flechas del carrucel y algunas otras cositas como el margen del apartado de 
+    infomracion o el @oriflame, todo eso habría que borarlo porque tiene un css que no funciona aparte*/
+@media (max-width: 575px) {
+    .footer .location_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer .location_icon li {
+        padding: 0;
+    }
+}
+@media (max-width: 575px) {
+
+  #banner1 .carousel-item img {
+      height: 220px;
+      object-fit: cover;
+  }
 
 }
+@media (max-width: 575px) {
+
+  /* Contenedor del carrusel */
+  #banner1 {
+    position: relative;
+    padding-bottom: 70px; /* espacio para las flechas */
+  }
+
+  /* Flechas */
+  #banner1 .carousel-control-prev,
+  #banner1 .carousel-control-next {
+    top: auto;
+    bottom: 10px;
+    transform: none;
+  }
+
+  #banner1 .carousel-control-prev {
+    left: 40%;
+  }
+
+  #banner1 .carousel-control-next {
+    right: 40%;
+  }
+
+}
+@media (max-width: 575px) {
+
+  .oriflame {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+}
+
 
 
