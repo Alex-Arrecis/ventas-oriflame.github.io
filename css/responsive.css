@@ -254,13 +254,55 @@
     }
     /*estilos para las letras de informacion*/
 
-/* Fuerza TODOS los títulos dentro de oriflame */
-body .oriflame h1,
-body .oriflame h2,
-body .oriflame h3 {
-    color: #8e44ad !important;
-    font-size: 36px !important;
-    margin: 30px 0 15px !important;
+/* ======================================================
+   AJUSTE GLOBAL FINAL – CELULAR
+   ====================================================== */
+@media (max-width: 575px) {
+
+  html {
+    font-size: 14px;
+  }
+
+  h1 { font-size: 1.6rem !important; }
+  h2 { font-size: 1.3rem !important; }
+  h3 { font-size: 1.1rem !important; }
+
+  p, a, li {
+    font-size: 0.95rem !important;
+  }
+
+  .banner_main {
+    padding-top: 110px !important;
+    padding-bottom: 40px !important;
+  }
+
+  section,
+  .about,
+  .clients,
+  .shop,
+  .contact {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
+@media (max-width: 575px) {
+    .footer .location_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer .location_icon li {
+        padding: 0;
+    }
 }
+
+}
+
 
