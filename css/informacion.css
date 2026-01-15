@@ -1,0 +1,37 @@
+/* Ajustes individuales */
+body .oriflame h1 {
+    font-size: 48px;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+body .oriflame h2 {
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+body .oriflame h3 {
+    font-size: 22px !important;
+    color: #222 !important;
+}
+
+/* Párrafos */
+body .oriflame p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Texto resaltado */
+body .oriflame .resaltado {
+    color: #03cafc !important;
+    font-weight: bold !important;
+    font-size: 20px;
+}
